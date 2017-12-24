@@ -36,7 +36,7 @@ class ExceptionHandler
 	{
 		$whoops = new Run;
 
-		$this->enableError();
+		$this->enableErrorReporting();
 
 		if ($this->debugTrue()) {
 			
@@ -51,7 +51,7 @@ class ExceptionHandler
 	 * Enable error reporting.
 	 *
 	 */
-	public function enableError()
+	public function enableErrorReporting()
 	{
 		error_reporting(E_ALL ^ E_WARNING ^ E_USER_WARNING ^ E_NOTICE ^ E_DEPRECATED );
 	}
