@@ -2,10 +2,12 @@
     "name": "phpo2/framework",
     "description": "The PHPO2 Framework.",
     "license": "MIT",
-    "require": {},
+    "require": {
+        "filp/whoops": "^2.1"
+    },
     "autoload": {
         "psr-4": {
-             "O2\\": "scr/Core/"
+             "PHPO2\\": "scr/PHPO2/"
         }
     }
 }
