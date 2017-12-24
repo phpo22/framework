@@ -1,6 +1,6 @@
 <?php 
 
-namespace O2\Initilizer;
+namespace O2\Initializer;
 
 /**
 * Register Class.
