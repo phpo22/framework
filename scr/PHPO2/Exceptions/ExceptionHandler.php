@@ -1,6 +1,6 @@
 <?php 
 
-namespace O2\Exceptions;
+namespace PHPO2\Exceptions;
 
 use Whoops\Run;
 use Whoops\Handler\PrettyPageHandler;

@@ -1,8 +1,8 @@
 <?php 
 
-namespace O2\Initializer;
+namespace PHPO2\Initializer;
 
-use O2\Exceptions\ExceptionHandler;
+use PHPO2\Exceptions\ExceptionHandler;
 
 /**
 * Register Class.
