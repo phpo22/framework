@@ -1,0 +1,6 @@
+{
+    "name": "phpo2/framework",
+    "description": "The PHPO2 Framework.",
+    "license": "MIT",
+    "require": {}
+}
